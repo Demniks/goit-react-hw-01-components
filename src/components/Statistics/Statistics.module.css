@@ -1,0 +1,35 @@
+.statistics {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: rgb(241, 229, 212);
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.stat_list {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 10px;
+  width: calc(100% / 5);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.label {
+  font-size: 18px;
+}
